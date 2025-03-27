@@ -26,12 +26,15 @@
   - type: SpeedModifiedOnWield
     walkModifier: 0.25
     sprintModifier: 0.25
+  - type: Wieldable
+    wieldSound:
+      path: /Audio/Items/bow_pull.ogg
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
-    maxOffset: 2
+    maxOffset: 3
     pvsIncrease: 0.3
   - type: Gun
-    fireRate: 0.5
+    fireRate: 0.3
     minAngle: 5
     maxAngle: 10
     selectedMode: SemiAuto
@@ -48,7 +51,7 @@
         insertSound: /Audio/Weapons/Guns/Misc/arrow_nock.ogg
         whitelist:
           tags:
-          - CP14CrossbowBolt
+          - CP14CrossbowBoltHeavy
   - type: ContainerContainer
     containers:
       projectiles: !type:ContainerSlot

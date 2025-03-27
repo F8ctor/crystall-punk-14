@@ -115,8 +115,7 @@
   components:
   - type: Item
     size: Small
-    shape:
-    - 0,1,0,1
+    storedRotation: 0
   - type: Tag
     tags:
     - CP14CrossbowBoltHeavy
