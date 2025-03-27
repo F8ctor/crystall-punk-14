@@ -1,6 +1,6 @@
 - type: entity
   id: CP14BaseHeavyCrossbow
-  name: Heavy crossbow
+  name: Heavy crossbow #потом локализейнш
   parent: BaseItem
   categories: [ ForkFiltered ]
   description: A heavy crossbow, difficult to wield with one hand. Compared to a light crossbow, it offers greater accuracy and a more powerful shot, making it a formidable weapon for ranged combat against large targets.
@@ -13,19 +13,22 @@
   - type: Item
     size: Large
   - type: Clothing
-    equipDelay: 1.50
-    unequipDelay: 2
+    equipDelay: 1.5
+    unequipDelay: 2.5
     sprite: _CP14/Objects/Weapons/Ranged/light_crossbow.rsi
     quickEquip: false
     breakOnMove: false
     slots:
-    - belt
+    - neck
+    - BACK
   - type: UseDelay
-    delay: 1
+    delay: 3
   - type: GunRequiresWield
+  - type: ClothingSpeedModifier
+    sprintModifier: 0.85
   - type: SpeedModifiedOnWield
-    walkModifier: 0.25
-    sprintModifier: 0.25
+    walkModifier: 0.4
+    sprintModifier: 0.4
   - type: Wieldable
     wieldSound:
       path: /Audio/Items/bow_pull.ogg
@@ -64,5 +67,3 @@
         whitelist:
           tags:
             - CP14CrossbowBoltHeavy
-  - type: CP14Currency
-    currency: 7000

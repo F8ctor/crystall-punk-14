@@ -231,7 +231,7 @@
   result: CP14ClothingMaskSteelMask
 
 - type: CP14Recipe
-  id: CP14BaseHeavyCrossbow
+  id: CP14BaseHeavyCrossbow # это редактировать потом
   tag: CP14RecipeAnvil
   craftTime: 6
   requirements:
