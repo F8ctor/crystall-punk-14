@@ -1,0 +1,69 @@
+- type: entity
+  id: CP14BaseHeavyCrossbow
+  name: Heavy crossbow #потом локализейнш
+  parent: BaseItem
+  categories: [ ForkFiltered ]
+  description: A heavy crossbow, difficult to wield with one hand. Compared to a light crossbow, it offers greater accuracy and a more powerful shot, making it a formidable weapon for ranged combat against large targets.
+  components:
+  - type: Sprite
+    sprite: _CP14/Objects/Weapons/Ranged/light_crossbow.rsi
+    layers:
+    - state: unwielded
+      map: [ base ]
+  - type: Item
+    size: Large
+  - type: Clothing
+    equipDelay: 1.5
+    unequipDelay: 2.5
+    sprite: _CP14/Objects/Weapons/Ranged/light_crossbow.rsi
+    quickEquip: false
+    breakOnMove: false
+    slots:
+    - neck
+    - BACK
+  - type: UseDelay
+    delay: 3
+  - type: GunRequiresWield
+  - type: ClothingSpeedModifier
+    sprintModifier: 0.85
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.4
+    sprintModifier: 0.4
+  - type: Wieldable
+    wieldSound:
+      path: /Audio/Items/bow_pull.ogg
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 3
+    pvsIncrease: 0.3
+  - type: Gun
+    fireRate: 0.3
+    minAngle: 5
+    maxAngle: 10
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      collection: BulletMiss
+    soundEmpty: null
+  - type: ItemSlots
+    slots:
+      projectiles:
+        name: Projectiles
+        startingItem: null
+        insertSound: /Audio/Weapons/Guns/Misc/arrow_nock.ogg
+        whitelist:
+          tags:
+          - CP14CrossbowBoltHeavy
+  - type: ContainerContainer
+    containers:
+      projectiles: !type:ContainerSlot
+  - type: ContainerAmmoProvider
+    container: projectiles
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      unwielded-arrow:
+        whitelist:
+          tags:
+            - CP14CrossbowBoltHeavy

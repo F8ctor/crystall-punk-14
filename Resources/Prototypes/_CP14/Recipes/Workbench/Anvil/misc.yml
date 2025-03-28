@@ -193,3 +193,19 @@
     stack: CP14IronBar
     count: 2
   result: CP14ClothingMaskSteelMask
+
+- type: CP14Recipe
+  id: CP14BaseHeavyCrossbow # это редактировать потом
+  tag: CP14RecipeAnvil
+  craftTime: 6
+  requirements:
+  - !type:StackResource
+    stack: CP14CopperBar
+    count: 1
+  - !type:StackResource
+    stack: CP14IronBar
+    count: 3
+  - !type:ProtoIdResource
+    protoId: CP14String
+    count: 1
+  result: CP14BaseHeavyCrossbow
