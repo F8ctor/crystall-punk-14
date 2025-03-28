@@ -109,7 +109,7 @@
 
 - type: entity
   parent: BaseArrow
-  id: CP14BaseCrossboltHeavy # всё ниже под локализацию
+  id: CP14BaseCrossboltHeavy
   categories: [ ForkFiltered ]
   abstract: true
   components:
@@ -121,10 +121,34 @@
     - CP14CrossbowBoltHeavy
 
 - type: entity
+  id: CP14CrossboltHeavyCopper
+  parent: CP14BaseCrossboltHeavy
+  name: copper crossbow heavy bolt
+  description: Elongated copper rod with a pointed tip. Only for special purposes.
+  components:
+  - type: Projectile
+    deleteOnCollide: false
+    onlyCollideWhenShot: true
+    damage:
+      types:
+        Piercing: 25
+  - type: Sprite
+    sprite: _CP14/Objects/Weapons/Ranged/Projectiles/heavy_crossbolt.rsi
+    layers:
+    - state: rod
+      color: "#bd712f"
+    - state: solution1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
+  - type: CP14Material
+    materials:
+      CP14Copper: 5
+
+- type: entity
   id: CP14CrossboltHeavyIron
   parent: CP14BaseCrossboltHeavy
   name: iron crossbow heavy bolt
-  description: A longer rod with a pointed iron tip. Only for specific purposes.
+  description: Elongated iron rod with a pointed tip. Only for special purposes.
   components:
   - type: Projectile
     deleteOnCollide: false
@@ -147,7 +171,7 @@
   id: CP14CrossboltHeavyGold
   parent: CP14BaseCrossboltHeavy
   name: gold crossbow heavy bolt
-  description: A longer rod with a pointed gold tip. Only for specific purposes.
+  description: Elongated gold rod with a pointed tip. Only for special purposes.
   components:
   - type: Projectile
     deleteOnCollide: false
@@ -168,34 +192,10 @@
       CP14Gold: 5
 
 - type: entity
-  id: CP14CrossboltHeavyCopper
-  parent: CP14BaseCrossboltHeavy
-  name: copper crossbow heavy bolt
-  description: A longer rod with a pointed copper tip. Only for specific purposes.
-  components:
-  - type: Projectile
-    deleteOnCollide: false
-    onlyCollideWhenShot: true
-    damage:
-      types:
-        Piercing: 25
-  - type: Sprite
-    sprite: _CP14/Objects/Weapons/Ranged/Projectiles/heavy_crossbolt.rsi
-    layers:
-    - state: rod
-      color: "#bd712f"
-    - state: solution1
-      map: ["enum.SolutionContainerLayers.Fill"]
-      visible: false
-  - type: CP14Material
-    materials:
-      CP14Copper: 5
-
-- type: entity
   id: CP14CrossboltHeavyMithril
   parent: CP14BaseCrossboltHeavy
   name: mithril crossbow heavy bolt
-  description: A longer rod with a pointed mithril tip. Only for specific purposes.
+  description: Elongated mithril rod with a pointed tip. Only for special purposes.
   components:
   - type: Projectile
     deleteOnCollide: false

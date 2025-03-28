@@ -1,6 +1,6 @@
 - type: entity
   id: CP14BaseHeavyCrossbow
-  name: Heavy crossbow #потом локализейнш
+  name: heavy crossbow
   parent: BaseItem
   categories: [ ForkFiltered ]
   description: A heavy crossbow, difficult to wield with one hand. Compared to a light crossbow, it offers greater accuracy and a more powerful shot, making it a formidable weapon for ranged combat against large targets.

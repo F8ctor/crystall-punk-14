@@ -4313,3 +4313,38 @@ ent-CP14WallCardboard = картонная стена
 
 ent-CP14WindowWooden = деревянное окно
     .desc = Деревянная стена со стеклянным окном в ней.
+
+ent-CP14BaseHeavyCrossbow = тяжёлый арбалет
+    .desc = Тяжёлый арбалет, сложно использовать одной рукой. По сравнению с лёгким арбалетом, он обладает большей точностью и более мощным выстрелом, что делает его грозным оружием для дальнего боя против крупных целей.
+
+ent-CP14BaseCrossboltHeavy = медный арбалетный тяжелый болт
+    .desc = Удлинённый медный стержень с заострённым наконечником. Только для особых целей.
+
+ent-CP14CrossboltHeavyIron = железный арбалетный тяжелый болт
+    .desc = Удлинённый железный стержень с заострённым наконечником. Только для особых целей.
+
+ent-CP14CrossboltHeavyGold = золотой арбалетный тяжелый болт
+    .desc = Удлинённый золотой стержень с заострённым наконечником. Только для особых целей.
+
+ent-CP14CrossboltHeavyMithril = мифриловый арбалетный тяжелый болт
+    .desc = Удлинённый мифриловый стержень с заострённым наконечником. Только для особых целей.
+
+ent-CP14ClothingBeltQuiverCrossboltHeavyMix = { ent-CP14ClothingBeltQuiver }
+    .desc = { ent-CP14ClothingBeltQuiver.desc }
+    .suffix = Полный. Микс. Тяжёлые Болты
+
+ent-CP14ClothingBeltQuiverCrossboltHeavyCopper = { ent-CP14ClothingBeltQuiver }
+    .desc = { ent-CP14ClothingBeltQuiver.desc }
+    .suffix = Полный. Медь. Тяжёлые Болты
+
+ent-CP14ClothingBeltQuiverCrossboltHeavyIron = { ent-CP14ClothingBeltQuiver }
+    .desc = { ent-CP14ClothingBeltQuiver.desc }
+    .suffix = Полный. Железо. Тяжёлые Болты
+
+ent-CP14ClothingBeltQuiverCrossboltHeavyGold = { ent-CP14ClothingBeltQuiver }
+    .desc = { ent-CP14ClothingBeltQuiver.desc }
+    .suffix = Полный. Золото. Тяжёлые Болты
+
+ent-CP14ClothingBeltQuiverCrossboltHeavyMithril = { ent-CP14ClothingBeltQuiver }
+    .desc = { ent-CP14ClothingBeltQuiver.desc }
+    .suffix = Полный. Мифрил. Тяжёлые Болты

@@ -79,7 +79,7 @@
   parent: CP14ClothingBeltQuiver
   id: CP14ClothingBeltQuiverCrossboltHeavyMix
   categories: [ ForkFiltered ]
-  suffix: Full. Mix. Crossbolt Heavy #потом локализейнш
+  suffix: Full. Mix. Crossbolt Heavy
   components:
   - type: StorageFill
     contents:
@@ -94,20 +94,9 @@
 
 - type: entity
   parent: CP14ClothingBeltQuiver
-  id: CP14ClothingBeltQuiverCrossboltHeavyIron
-  categories: [ ForkFiltered ]
-  suffix: Full. Iron. Crossbolt Heavy #потом локализейнш
-  components:
-  - type: StorageFill
-    contents:
-      - id: CP14CrossboltHeavyIron
-        amount: 16
-
-- type: entity
-  parent: CP14ClothingBeltQuiver
   id: CP14ClothingBeltQuiverCrossboltHeavyCopper
   categories: [ ForkFiltered ]
-  suffix: Full. Copper. Crossbolt Heavy #потом локализейнш
+  suffix: Full. Copper. Crossbolt Heavy
   components:
   - type: StorageFill
     contents:
@@ -116,9 +105,20 @@
 
 - type: entity
   parent: CP14ClothingBeltQuiver
+  id: CP14ClothingBeltQuiverCrossboltHeavyIron
+  categories: [ ForkFiltered ]
+  suffix: Full. Iron. Crossbolt Heavy
+  components:
+  - type: StorageFill
+    contents:
+      - id: CP14CrossboltHeavyIron
+        amount: 16
+
+- type: entity
+  parent: CP14ClothingBeltQuiver
   id: CP14ClothingBeltQuiverCrossboltHeavyGold
   categories: [ ForkFiltered ]
-  suffix: Full. Gold. Crossbolt Heavy #потом локализейнш
+  suffix: Full. Gold. Crossbolt Heavy
   components:
   - type: StorageFill
     contents:
@@ -129,7 +129,7 @@
   parent: CP14ClothingBeltQuiver
   id: CP14ClothingBeltQuiverCrossboltHeavyMithril
   categories: [ ForkFiltered ]
-  suffix: Full. Mithril. Crossbolt Heavy #потом локализейнш
+  suffix: Full. Mithril. Crossbolt Heavy
   components:
   - type: StorageFill
     contents:

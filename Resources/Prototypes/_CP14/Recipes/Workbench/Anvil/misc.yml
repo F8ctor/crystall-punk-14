@@ -209,3 +209,43 @@
     protoId: CP14String
     count: 1
   result: CP14BaseHeavyCrossbow
+
+- type: CP14Recipe
+  id: CP14CrossboltHeavyCopper
+  tag: CP14RecipeAnvil
+  craftTime: 3
+  requirements:
+  - !type:StackResource
+    stack: CP14CopperBar
+    count: 1
+  result: CP14CrossboltHeavyCopper
+
+- type: CP14Recipe
+  id: CP14CrossboltHeavyIron
+  tag: CP14RecipeAnvil
+  craftTime: 3
+  requirements:
+  - !type:StackResource
+    stack: CP14IronBar
+    count: 1
+  result: CP14CrossboltHeavyIron
+
+- type: CP14Recipe
+  id: CP14CrossboltHeavyGold
+  tag: CP14RecipeAnvil
+  craftTime: 3
+  requirements:
+  - !type:StackResource
+    stack: CP14GoldBar
+    count: 1
+  result: CP14CrossboltHeavyGold
+
+- type: CP14Recipe
+  id: CP14CrossboltHeavyMithril
+  tag: CP14RecipeAnvil
+  craftTime: 3
+  requirements:
+  - !type:StackResource
+    stack: CP14MithrilBar
+    count: 1
+  result: CP14CrossboltHeavyMithril
