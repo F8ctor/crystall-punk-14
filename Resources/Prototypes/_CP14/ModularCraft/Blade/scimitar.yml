@@ -1,0 +1,87 @@
+#Concept:
+# + Additional range
+# + High Damage! And speed
+# - Required Warcraft skill
+
+- type: modularPart
+  id: BaseBladeScimitar
+  modifiers:
+  - !type:Inherit
+    copyFrom:
+    - BaseWeaponChemical
+    - BaseWeaponSharp
+  - !type:AddComponents
+    components:
+  - !type:EditMeleeWeapon
+    bonusRange: 0.2
+    angleMultiplier: 1.4
+    bonusDamage:
+      types:
+        Slash: 10
+        Piercing: 6
+  - !type:EditIncreaseDamageOnWield
+    bonusDamage:
+      types:
+        Slash: 4
+        Piercing: 3
+  - !type:EditItem
+    newSize: Large
+    adjustShape: 0, 2
+    storedOffsetBonus: 0, 10
+  - !type:EditModularSlots
+    addSlots:
+    - Garde
+    - BladeInlay
+  - !type:EditDamageableModifier
+    multiplier: 2
+
+- type: modularPart
+  id: BladeIronScimitar
+  slots:
+  - Blade
+  sourcePart: CP14ScrapIron
+  rsiPath: _CP14/Objects/ModularTools/Blade/Scimitar/skimitar.rsi
+  modifiers:
+  - !type:Inherit
+    copyFrom:
+    - BaseBladeScimitar
+    - BaseBladeIron
+
+- type: modularPart
+  id: BladeGoldScimitar
+  slots:
+  - Blade
+  sourcePart: CP14ScrapGold
+  rsiPath: _CP14/Objects/ModularTools/Blade/Scimitar/skimitar.rsi
+  color: "#ffaf47"
+  modifiers:
+  - !type:Inherit
+    copyFrom:
+    - BaseBladeScimitar
+    - BaseBladeGold
+
+- type: modularPart
+  id: BladeCopperScimitar
+  slots:
+  - Blade
+  sourcePart: CP14ScrapCopper
+  rsiPath: _CP14/Objects/ModularTools/Blade/Scimitar/skimitar.rsi
+  color: "#bd712f"
+  modifiers:
+  - !type:Inherit
+    copyFrom:
+    - BaseBladeScimitar
+    - BaseBladeCopper
+
+- type: modularPart
+  id: BladeMithrilScimitar
+  slots:
+  - Blade
+  sourcePart: CP14ScrapMithril
+  rsiPath: _CP14/Objects/ModularTools/Blade/Scimitar/skimitar.rsi
+  color: "#45d2a4"
+  modifiers:
+  - !type:Inherit
+    copyFrom:
+    - BaseBladeScimitar
+    - BaseBladeMithril
