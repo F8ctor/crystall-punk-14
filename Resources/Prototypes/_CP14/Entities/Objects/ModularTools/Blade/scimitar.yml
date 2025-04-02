@@ -3,7 +3,7 @@
   id: CP14ModularBladeScimitarBase
   categories: [ ForkFiltered ]
   abstract: true
-  description: A rapier blade without a hilt. A blacksmith can use it as a spare part to create a weapon.
+  description: A curved, single-edged sword known for its sharp edge and elegant design.
   components:
   - type: Item
     storedRotation: 45
@@ -14,7 +14,7 @@
 - type: entity
   parent: CP14ModularBladeScimitarBase
   id: CP14ModularBladeIronScimitar
-  name: iron rapier blade
+  name: iron scimitar blade
   components:
   - type: Sprite
     sprite: _CP14/Objects/ModularTools/Blade/Scimitar/skimitar.rsi
@@ -22,15 +22,15 @@
     - state: icon
   - type: CP14ModularCraftPart
     possibleParts:
-    - BladeIronRapier
+    - BladeIronScimitar
   - type: CP14Material
     materials:
-      CP14Iron: 10
+      CP14Iron: 15
 
 - type: entity
   parent: CP14ModularBladeScimitarBase
   id: CP14ModularBladeGoldScimitar
-  name: golden rapier blade
+  name: golden scimitar blade
   components:
   - type: Sprite
     sprite: _CP14/Objects/ModularTools/Blade/Scimitar/skimitar.rsi
@@ -39,15 +39,15 @@
       color: "#ffaf47"
   - type: CP14ModularCraftPart
     possibleParts:
-    - BladeGoldRapier
+    - BladeGoldScimitar
   - type: CP14Material
     materials:
-      CP14Gold: 10
+      CP14Gold: 15
 
 - type: entity
   parent: CP14ModularBladeScimitarBase
   id: CP14ModularBladeCopperScimitar
-  name: copper rapier blade
+  name: copper scimitar blade
   components:
   - type: Sprite
     sprite: _CP14/Objects/ModularTools/Blade/Scimitar/skimitar.rsi
@@ -56,15 +56,15 @@
       color: "#bd712f"
   - type: CP14ModularCraftPart
     possibleParts:
-    - BladeCopperRapier
+    - BladeCopperScimitar
   - type: CP14Material
     materials:
-      CP14Copper: 10
+      CP14Copper: 15
 
 - type: entity
   parent: CP14ModularBladeScimitarBase
   id: CP14ModularBladeMithrilScimitar
-  name: mithril rapier blade
+  name: mithril scimitar blade
   components:
   - type: Sprite
     sprite: _CP14/Objects/ModularTools/Blade/Scimitar/skimitar.rsi
@@ -73,7 +73,7 @@
       color: "#45d2a4"
   - type: CP14ModularCraftPart
     possibleParts:
-    - BladeMithrilRapier
+    - BladeMithrilScimitar
   - type: CP14Material
     materials:
-      CP14Mithril: 10
+      CP14Mithril: 15

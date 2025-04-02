@@ -4313,3 +4313,18 @@ ent-CP14WallCardboard = картонная стена
 
 ent-CP14WindowWooden = деревянное окно
     .desc = Деревянная стена со стеклянным окном в ней.
+
+ent-CP14ModularBladeScimitarBase = None
+    .desc = Изогнутый однолезвийный меч, известный своей острой кромкой и изящным дизайном.
+
+ent-CP14ModularBladeIronScimitar = железное лезвие скимитара
+    .desc = { ent-CP14ModularBladeScimitarBase.desc }
+
+ent-CP14ModularBladeGoldScimitar = золотое лезвие скимитара
+    .desc = { ent-CP14ModularBladeScimitarBase.desc }
+
+ent-CP14ModularBladeCopperScimitar = медное лезвие скимитара
+    .desc = { ent-CP14ModularBladeScimitarBase.desc }
+
+ent-CP14ModularBladeMithrilScimitar = мифриловое лезвие скимитара
+    .desc = { ent-CP14ModularBladeScimitarBase.desc }
