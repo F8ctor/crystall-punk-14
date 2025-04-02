@@ -503,4 +503,45 @@
     stack: CP14MithrilBar
     count: 2
   result: CP14ModularBladeMithrilHammer
-  
+
+  # Scimitar
+
+- type: CP14Recipe
+  id: CP14ModularBladeIronScimitar
+  tag: CP14RecipeAnvil
+  craftTime: 4
+  requirements:
+  - !type:StackResource
+    stack: CP14IronBar
+    count: 2
+  result: CP14ModularBladeIronScimitar
+
+- type: CP14Recipe
+  id: CP14ModularBladeGoldScimitar
+  tag: CP14RecipeAnvil
+  craftTime: 4
+  requirements:
+  - !type:StackResource
+    stack: CP14GoldBar
+    count: 2
+  result: CP14ModularBladeGoldScimitar
+
+- type: CP14Recipe
+  id: CP14ModularBladeCopperScimitar
+  tag: CP14RecipeAnvil
+  craftTime: 4
+  requirements:
+  - !type:StackResource
+    stack: CP14CopperBar
+    count: 2
+  result: CP14ModularBladeCopperScimitar
+
+- type: CP14Recipe
+  id: CP14ModularBladeMithrilScimitar
+  tag: CP14RecipeAnvil
+  craftTime: 4
+  requirements:
+  - !type:StackResource
+    stack: CP14MithrilBar
+    count: 2
+  result: CP14ModularBladeMithrilScimitar
